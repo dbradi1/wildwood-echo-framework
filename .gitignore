@@ -1,0 +1,13 @@
+# Game database (build artifacts)
+db/game.db
+db/game-backup-*.db
+*.db
+
+# Runtime state from the checkpoint automation
+.checkpoint-pending
+.last-checkpoint
+nightly-checkpoint.log
+
+# Python
+__pycache__/
+*.pyc
